@@ -456,6 +456,6 @@ adb logcat | grep -i native
 
 ---
 
-**最后更新**: 2025-11-05
+**最后更新**: 2024-11-05
 
 **维护者**: Elucideye, Inc.
