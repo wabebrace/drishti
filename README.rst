@@ -1,7 +1,7 @@
 drishti
 =======
 
-**[English]** | `简体中文 (Chinese) <README_CN.md>`__
+**English** | `简体中文 (Chinese) <README_CN.md>`__
 
 |Travis| |Appveyor| |License (3-Clause BSD)| |Hunter| |Gitter|
 
@@ -42,7 +42,7 @@ from your macOS + Xcode host for your ``iOS`` device.   Please see
 Android Studio
 ~~~~~~~~~~~~~~
 
-**中文用户**: 查看 `完整的 Android Studio 开发指南 (中文) <ANDROID_STUDIO_SETUP_CN.md>`__
+**Chinese users (中文用户)**: See the `complete Android Studio development guide (中文开发指南) <ANDROID_STUDIO_SETUP_CN.md>`__
 
 UPDATE: Android NDK r19 is not currently supported due to significant structural changes in the android-ndk toolchain that conflict with CMake's internal Android support.  See this `_discussion <https://gitlab.kitware.com/cmake/cmake/issues/18787#note_520775>`__ for more details.
 
@@ -297,7 +297,7 @@ You can fix this with a one time Xcode initialization described in
 Android Studio Build
 ~~~~~~~~~~~~~~~~~~~~
 
-**中文用户**: 查看 `完整的 Android Studio 开发指南 (中文) <ANDROID_STUDIO_SETUP_CN.md>`__
+**Chinese users (中文用户)**: See the `complete Android Studio development guide (中文开发指南) <ANDROID_STUDIO_SETUP_CN.md>`__
 
 For Android Studio, there are additional requirements:
 
