@@ -1,6 +1,8 @@
 drishti
 =======
 
+**[English]** | `简体中文 (Chinese) <README_CN.md>`__
+
 |Travis| |Appveyor| |License (3-Clause BSD)| |Hunter| |Gitter|
 
 .. figure:: https://user-images.githubusercontent.com/554720/28922218-3a005f9c-7827-11e7-839c-ef3e9a282f70.png
@@ -39,6 +41,8 @@ from your macOS + Xcode host for your ``iOS`` device.   Please see
 
 Android Studio
 ~~~~~~~~~~~~~~
+
+**中文用户**: 查看 `完整的 Android Studio 开发指南 (中文) <ANDROID_STUDIO_SETUP_CN.md>`__
 
 UPDATE: Android NDK r19 is not currently supported due to significant structural changes in the android-ndk toolchain that conflict with CMake's internal Android support.  See this `_discussion <https://gitlab.kitware.com/cmake/cmake/issues/18787#note_520775>`__ for more details.
 
@@ -293,6 +297,8 @@ You can fix this with a one time Xcode initialization described in
 Android Studio Build
 ~~~~~~~~~~~~~~~~~~~~
 
+**中文用户**: 查看 `完整的 Android Studio 开发指南 (中文) <ANDROID_STUDIO_SETUP_CN.md>`__
+
 For Android Studio, there are additional requirements:
 
 * CMake 3.9.2+
@@ -314,7 +320,15 @@ invoking the Gradle build script.  If you do not have a ``local.properties``
 file, it will be generated automatically by Android Studio in the top level
 ``android-studio`` folder (usually ``drishti/android-studio/local.properites``),
 when it is launched, at which point you can add the ``cmake.dir=/path/to/native/cmake``
-CMake entry and rerun.  The ``local.properties`` file will look something like this:
+CMake entry and rerun.  
+
+**Example local.properties files** are provided for reference:
+
+* ``drishti/android-studio/local.properties.example``
+* ``drishti/src/examples/facefilter/android-studio/local.properties.example``
+
+Copy the example file to ``local.properties`` and update the paths for your system.
+The ``local.properties`` file will look something like this:
 
 
 .. code-block:: none
