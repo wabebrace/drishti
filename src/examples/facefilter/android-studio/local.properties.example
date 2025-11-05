@@ -1,0 +1,29 @@
+## Example local.properties file for Face Filter Android Studio project
+## Copy this file to "local.properties" and update the paths for your system
+
+## Android SDK path
+## macOS: /Users/username/Library/Android/sdk
+## Linux: /home/username/Android/Sdk
+## Windows: C:/Users/username/AppData/Local/Android/Sdk
+sdk.dir=/Users/username/Library/Android/sdk
+
+## Android NDK path (MUST use r17c or r18b - r19+ not supported)
+## macOS: /Users/username/Library/Android/sdk/ndk/r18b
+## Linux: /home/username/Android/Sdk/ndk/r18b
+## Windows: C:/Users/username/AppData/Local/Android/Sdk/ndk/r18b
+ndk.dir=/Users/username/Library/Android/sdk/ndk/r18b
+
+## CMake path (version 3.9.2 or higher required)
+## macOS (Homebrew): /usr/local
+## Linux: /usr or /usr/local
+## Windows: C:/Program Files/CMake
+cmake.dir=/usr/local
+
+## Notes:
+## 1. Replace "username" with your actual username
+## 2. Use forward slashes (/) or escaped backslashes (\\) for Windows paths
+## 3. Ensure cmake.dir points to directory containing bin/cmake executable
+## 4. NDK r19 and higher are NOT supported due to structural changes
+## 5. You can check your paths:
+##    - Android Studio → Preferences → Appearance & Behavior → System Settings → Android SDK
+##    - Run: which cmake (macOS/Linux) or where cmake (Windows)
